@@ -1,0 +1,64 @@
+const websites = 
+ {
+
+"Websites_categories":[
+  { "id": 1, "title": "e-commerce", "photo_url": "ecommerce.jpg" },
+  { "id": 2, "title": "blogging", "photo_url": "blogging.jpg" },
+  { "id": 3, "title": "news", "photo_url": "news.jpg" },
+  { "id": 4, "title": "portfolio", "photo_url": "portfolio.jpg" },
+],"Websites":
+[
+  {
+    "id": 1,
+    "title": "Bootstrap",
+    "Description": "",
+    "Price": "",
+    "Total_Buyer": " ",
+    "categorie": "",
+    "rating": "",
+    "photo": "",
+    "preview_link": "",
+    "features": [
+      {
+        "id": 1,
+        "title": ""
+      }
+    ],
+    "customers_reviews": [
+      {
+        "id": 1,
+        "username": "",
+        "title": "",
+        "description": "",
+        "photo_url": "",
+        "created_at": ""
+      }
+    ],
+    "buyed_client": [
+      {
+        "id": 1,
+        "username": "",
+        "photo_url": "",
+        "buyed_at": ""
+      }
+    ]
+  }
+]
+}
+
+const websitesJSON = JSON.stringify(websites);
+console.log(websitesJSON);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
