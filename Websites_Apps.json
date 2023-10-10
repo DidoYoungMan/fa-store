@@ -1,60 +1,129 @@
 
- {
-
-"Websites_categories":[
-  { "id": 1, "title": "e-commerce", "photo_url": "ecommerce.jpg" },
-  { "id": 2, "title": "blogging", "photo_url": "blogging.jpg" },
-  { "id": 3, "title": "news", "photo_url": "news.jpg" },
-  { "id": 4, "title": "portfolio", "photo_url": "portfolio.jpg" },
-],"Websites":
 [
   {
     "id": 1,
     "title": "Bootstrap",
-    "Description": "",
-    "Price": "",
-    "Total_Buyer": " ",
-    "categorie": "",
-    "rating": "",
-    "photo": "",
-    "preview_link": "",
+    "Description": "A responsive front-end framework",
+    "Price": "$49",
+    "Total_Buyer": "100",
+    "categorie": "Web Development",
+    "rating": "4.5",
+    "photo_url": "https://source.unsplash.com/150x150/?portrait?3",
+    "preview_link": "https://example.com/bootstrap",
     "features": [
       {
         "id": 1,
-        "title": ""
-      }
-    ],
-    "customers_reviews": [
+        "title": "Responsive design"
+      },
       {
-        "id": 1,
-        "username": "",
-        "title": "",
-        "description": "",
-        "photo_url": "",
-        "created_at": ""
-      }
-    ],
-    "buyed_client": [
+        "id": 2,
+        "title": "Grid system"
+      },
       {
-        "id": 1,
-        "username": "",
-        "photo_url": "",
-        "buyed_at": ""
+        "id": 3,
+        "title": "CSS components"
       }
     ]
-  }
+  },
+  {
+    "id": 2,
+    "title": "WordPress Theme",
+    "Description": "A customizable theme for WordPress",
+    "Price": "$59",
+    "Total_Buyer": "75",
+    "categorie": "Web Development",
+    "rating": "4.2",
+    "photo_url": "https://source.unsplash.com/150x150/?portrait?3",
+    "preview_link": "https://example.com/wordpress-theme",
+    "features": [
+      {
+        "id": 1,
+        "title": "Flexible layout"
+      },
+      {
+        "id": 2,
+        "title": "Customizable colors"
+      },
+      {
+        "id": 3,
+        "title": "Plugin compatibility"
+      }
+    ]
+  },
+  // Add more rows below
+  {
+    "id": 3,
+    "title": "E-commerce Template",
+    "Description": "A ready-to-use e-commerce website template",
+    "Price": "$79",
+    "Total_Buyer": "50",
+    "categorie": "Web Development",
+    "rating": "4.8",
+    "photo_url": "https://source.unsplash.com/150x150/?portrait?3",
+    "preview_link": "https://example.com/e-commerce-template",
+    "features": [
+      {
+        "id": 1,
+        "title": "Product catalog"
+      },
+      {
+        "id": 2,
+        "title": "Shopping cart functionality"
+      },
+      {
+        "id": 3,
+        "title": "Payment integration"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Portfolio Website",
+    "Description": "A professional portfolio website template",
+    "Price": "$39",
+    "Total_Buyer": "120",
+    "categorie": "Web Development",
+    "rating": "4.6",
+    "photo_url": "https://source.unsplash.com/150x150/?portrait?3",
+    "preview_link": "https://example.com/portfolio-website",
+    "features": [
+      {
+        "id": 1,
+        "title": "Gallery section"
+      },
+      {
+        "id": 2,
+        "title": "Responsive layout"
+      },
+      {
+        "id": 3,
+        "title": "Contact form"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Blog Template",
+    "Description": "A modern and clean blog template",
+    "Price": "$29",
+    "Total_Buyer": "90",
+    "categorie": "Web Development",
+    "rating": "4.3",
+    "photo_url": "https://source.unsplash.com/150x150/?portrait?3",
+    "preview_link": "https://example.com/blog-template",
+    "features": [
+      {
+        "id": 1,
+        "title": "Multiple blog post layouts"
+      },
+      {
+        "id": 2,
+        "title": "Commenting system"
+      },
+      {
+        "id": 3,
+        "title": "Social media integration"
+      }
+    ]
+  },
 ]
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
