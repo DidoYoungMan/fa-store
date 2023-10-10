@@ -1,4 +1,4 @@
-const websites = 
+
  {
 
 "Websites_categories":[
@@ -45,10 +45,6 @@ const websites =
   }
 ]
 }
-
-const websitesJSON = JSON.stringify(websites);
-console.log(websitesJSON);
-
 
 
 
