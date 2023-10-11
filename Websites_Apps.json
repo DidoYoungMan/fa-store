@@ -1,205 +1,361 @@
 {
- "Websites_languages": [
- { "id": 1, "title": "React" },
-  { "id": 2, "title": "Angular" },
-  { "id": 3, "title": "Vue.js" },
-  { "id": 4, "title": "Ember.js" },
-  { "id": 5, "title": "ASP.NET" },
-  { "id": 6, "title": "Ruby on Rails" },
-  { "id": 7, "title": "Django" },
-  { "id": 8, "title": "Express.js" },
-  { "id": 9, "title": "Laravel" },
-  { "id": 10, "title": "Symfony" },
-  { "id": 11, "title": "Flask" },
-  { "id": 12, "title": "JavaScript" },
-  { "id": 13, "title": "Python" },
-  { "id": 14, "title": "Java" },
-  { "id": 15, "title": "C++" },
-  { "id": 16, "title": "C#" },
-  { "id": 17, "title": "TypeScript" },
-  { "id": 18, "title": "Ruby" },
-  { "id": 19, "title": "Swift" },
-  { "id": 20, "title": "Go" },
-  { "id": 21, "title": "Kotlin" },
-  { "id": 22, "title": "Rust" },
-  { "id": 23, "title": "PHP" },
-  { "id": 24, "title": "MATLAB" },
-  { "id": 25, "title": "R" },
-  { "id": 26, "title": "HTML/CSS" },
-  { "id": 27, "title": "SQL" },
-  { "id": 28, "title": "Shell scripting (e.g., Bash)" },
-  { "id": 29, "title": "Perl" },
-  { "id": 30, "title": "Objective-C" },
-  { "id": 31, "title": "Scala" },
-  { "id": 32, "title": "Lua" },
-  { "id": 33, "title": "Node.js" },
-  { "id": 34, "title": "ASP.NET Core" },
-  { "id": 35, "title": "Spring Boot" },
-  { "id": 36, "title": "Flask" },
-  { "id": 37, "title": "WordPress" },
-  { "id": 38, "title": "Magento" },
-  { "id": 39, "title": "TensorFlow" },
-  { "id": 40, "title": "PyTorch" },
-  { "id": 41, "title": "Unity" },
-  { "id": 42, "title": "Git" },
-  { "id": 43, "title": "Docker" },
-  { "id": 44, "title": "AWS" },
-  { "id": 45, "title": "Firebase" },
-  { "id": 46, "title": "GraphQL" },
-  { "id": 47, "title": "RESTful API" },
-  { "id": 48, "title": "MongoDB" },
-  { "id": 49, "title": "MySQL" },
-  { "id": 50, "title": "PostgreSQL" },
-  { "id": 51, "title": "Redis" },
-  { "id": 52, "title": "Elasticsearch" }
-],
- "Websites_categories": [
-    {
-      "id": 1,
-      "title": "e-commerce",
-       "photo_url": "https://source.unsplash.com/150x150/?portrait?3"
-    },
-    {
-      "id": 2,
-      "title": "blogging",
-       "photo_url": "https://source.unsplash.com/150x150/?portrait?3"
-    },
-    {
-      "id": 3,
-      "title": "news",
-       "photo_url": "https://source.unsplash.com/150x150/?portrait?3"
-    },
-    {
-      "id": 4,
-      "title": "portfolio",
-       "photo_url": "https://source.unsplash.com/150x150/?portrait?3",
-    }
-  ],
-  "Websites": [
-    {
-      "id": 1,
-      "title": "Bootstrap",
-      "Description": "A responsive front-end framework",
-      "Price": "$49",
-      "Total_Buyer": "100",
-      "categorie": "Web Development",
-      "rating": "4.5",
-      "photo_url": "https://source.unsplash.com/150x150/?portrait?3",
-      "preview_link": "https://example.com/bootstrap",
-      "features": [
+    "Websites_languages": [
         {
-          "id": 1,
-          "title": "Responsive design"
+            "id": 1,
+            "title": "React"
         },
         {
-          "id": 2,
-          "title": "Grid system"
+            "id": 2,
+            "title": "Angular"
         },
         {
-          "id": 3,
-          "title": "CSS components"
+            "id": 3,
+            "title": "Vue.js"
+        },
+        {
+            "id": 4,
+            "title": "Ember.js"
+        },
+        {
+            "id": 5,
+            "title": "ASP.NET"
+        },
+        {
+            "id": 6,
+            "title": "Ruby on Rails"
+        },
+        {
+            "id": 7,
+            "title": "Django"
+        },
+        {
+            "id": 8,
+            "title": "Express.js"
+        },
+        {
+            "id": 9,
+            "title": "Laravel"
+        },
+        {
+            "id": 10,
+            "title": "Symfony"
+        },
+        {
+            "id": 11,
+            "title": "Flask"
+        },
+        {
+            "id": 12,
+            "title": "JavaScript"
+        },
+        {
+            "id": 13,
+            "title": "Python"
+        },
+        {
+            "id": 14,
+            "title": "Java"
+        },
+        {
+            "id": 15,
+            "title": "C++"
+        },
+        {
+            "id": 16,
+            "title": "C#"
+        },
+        {
+            "id": 17,
+            "title": "TypeScript"
+        },
+        {
+            "id": 18,
+            "title": "Ruby"
+        },
+        {
+            "id": 19,
+            "title": "Swift"
+        },
+        {
+            "id": 20,
+            "title": "Go"
+        },
+        {
+            "id": 21,
+            "title": "Kotlin"
+        },
+        {
+            "id": 22,
+            "title": "Rust"
+        },
+        {
+            "id": 23,
+            "title": "PHP"
+        },
+        {
+            "id": 24,
+            "title": "MATLAB"
+        },
+        {
+            "id": 25,
+            "title": "R"
+        },
+        {
+            "id": 26,
+            "title": "HTML/CSS"
+        },
+        {
+            "id": 27,
+            "title": "SQL"
+        },
+        {
+            "id": 28,
+            "title": "Shell scripting (e.g., Bash)"
+        },
+        {
+            "id": 29,
+            "title": "Perl"
+        },
+        {
+            "id": 30,
+            "title": "Objective-C"
+        },
+        {
+            "id": 31,
+            "title": "Scala"
+        },
+        {
+            "id": 32,
+            "title": "Lua"
+        },
+        {
+            "id": 33,
+            "title": "Node.js"
+        },
+        {
+            "id": 34,
+            "title": "ASP.NET Core"
+        },
+        {
+            "id": 35,
+            "title": "Spring Boot"
+        },
+        {
+            "id": 36,
+            "title": "Flask"
+        },
+        {
+            "id": 37,
+            "title": "WordPress"
+        },
+        {
+            "id": 38,
+            "title": "Magento"
+        },
+        {
+            "id": 39,
+            "title": "TensorFlow"
+        },
+        {
+            "id": 40,
+            "title": "PyTorch"
+        },
+        {
+            "id": 41,
+            "title": "Unity"
+        },
+        {
+            "id": 42,
+            "title": "Git"
+        },
+        {
+            "id": 43,
+            "title": "Docker"
+        },
+        {
+            "id": 44,
+            "title": "AWS"
+        },
+        {
+            "id": 45,
+            "title": "Firebase"
+        },
+        {
+            "id": 46,
+            "title": "GraphQL"
+        },
+        {
+            "id": 47,
+            "title": "RESTful API"
+        },
+        {
+            "id": 48,
+            "title": "MongoDB"
+        },
+        {
+            "id": 49,
+            "title": "MySQL"
+        },
+        {
+            "id": 50,
+            "title": "PostgreSQL"
+        },
+        {
+            "id": 51,
+            "title": "Redis"
+        },
+        {
+            "id": 52,
+            "title": "Elasticsearch"
         }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "WordPress Theme",
-      "Description": "A customizable theme for WordPress",
-      "Price": "$59",
-      "Total_Buyer": "75",
-      "categorie": "Web Development",
-      "rating": "4.2",
-      "photo_url": "https://source.unsplash.com/150x150/?portrait?3",
-      "preview_link": "https://example.com/wordpress-theme",
-      "features": [
+    ],
+    "Websites_categories": [
         {
-          "id": 1,
-          "title": "Flexible layout"
+            "id": 1,
+            "title": "e-commerce",
+            "photo_url": "https://source.unsplash.com/150x150/?portrait?3"
         },
         {
-          "id": 2,
-          "title": "Customizable colors"
+            "id": 2,
+            "title": "blogging",
+            "photo_url": "https://source.unsplash.com/150x150/?portrait?3"
         },
         {
-          "id": 3,
-          "title": "Plugin compatibility"
+            "id": 3,
+            "title": "news",
+            "photo_url": "https://source.unsplash.com/150x150/?portrait?3"
+        },
+        {
+            "id": 4,
+            "title": "portfolio",
+            "photo_url": "https://source.unsplash.com/150x150/?portrait?3"
         }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "E-commerce Template",
-      "Description": "A ready-to-use e-commerce website template",
-      "Price": "$79",
-      "Total_Buyer": "50",
-      "categorie": "Web Development",
-      "rating": "4.8",
-      "photo_url": "https://source.unsplash.com/150x150/?portrait?3",
-      "preview_link": "https://example.com/e-commerce-template",
-      "features": [
+    ],
+    "Websites": [
         {
-          "id": 1,
-          "title": "Product catalog"
+            "id": 1,
+            "title": "Bootstrap",
+            "Description": "A responsive front-end framework",
+            "Price": "$49",
+            "Total_Buyer": "100",
+            "categorie": "Web Development",
+            "rating": "4.5",
+            "photo_url": "https://source.unsplash.com/150x150/?portrait?3",
+            "preview_link": "https://example.com/bootstrap",
+            "features": [
+                {
+                    "id": 1,
+                    "title": "Responsive design"
+                },
+                {
+                    "id": 2,
+                    "title": "Grid system"
+                },
+                {
+                    "id": 3,
+                    "title": "CSS components"
+                }
+            ]
         },
         {
-          "id": 2,
-          "title": "Shopping cart functionality"
+            "id": 2,
+            "title": "WordPress Theme",
+            "Description": "A customizable theme for WordPress",
+            "Price": "$59",
+            "Total_Buyer": "75",
+            "categorie": "Web Development",
+            "rating": "4.2",
+            "photo_url": "https://source.unsplash.com/150x150/?portrait?3",
+            "preview_link": "https://example.com/wordpress-theme",
+            "features": [
+                {
+                    "id": 1,
+                    "title": "Flexible layout"
+                },
+                {
+                    "id": 2,
+                    "title": "Customizable colors"
+                },
+                {
+                    "id": 3,
+                    "title": "Plugin compatibility"
+                }
+            ]
         },
         {
-          "id": 3,
-          "title": "Payment integration"
+            "id": 3,
+            "title": "E-commerce Template",
+            "Description": "A ready-to-use e-commerce website template",
+            "Price": "$79",
+            "Total_Buyer": "50",
+            "categorie": "Web Development",
+            "rating": "4.8",
+            "photo_url": "https://source.unsplash.com/150x150/?portrait?3",
+            "preview_link": "https://example.com/e-commerce-template",
+            "features": [
+                {
+                    "id": 1,
+                    "title": "Product catalog"
+                },
+                {
+                    "id": 2,
+                    "title": "Shopping cart functionality"
+                },
+                {
+                    "id": 3,
+                    "title": "Payment integration"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Portfolio Website",
+            "Description": "A professional portfolio website template",
+            "Price": "$39",
+            "Total_Buyer": "120",
+            "categorie": "Web Development",
+            "rating": "4.6",
+            "photo_url": "https://source.unsplash.com/150x150/?portrait?3",
+            "preview_link": "https://example.com/portfolio-website",
+            "features": [
+                {
+                    "id": 1,
+                    "title": "Gallery section"
+                },
+                {
+                    "id": 2,
+                    "title": "Responsive layout"
+                },
+                {
+                    "id": 3,
+                    "title": "Contact form"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Blog Template",
+            "Description": "A modern and clean blog template",
+            "Price": "$29",
+            "Total_Buyer": "90",
+            "categorie": "Web Development",
+            "rating": "4.3",
+            "photo_url": "https://source.unsplash.com/150x150/?portrait?3",
+            "preview_link": "https://example.com/blog-template",
+            "features": [
+                {
+                    "id": 1,
+                    "title": "Multiple blog post layouts"
+                },
+                {
+                    "id": 2,
+                    "title": "Commenting system"
+                },
+                {
+                    "id": 3,
+                    "title": "Social media integration"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Portfolio Website",
-      "Description": "A professional portfolio website template",
-      "Price": "$39",
-      "Total_Buyer": "120",
-      "categorie": "Web Development",
-      "rating": "4.6",
-      "photo_url": "https://source.unsplash.com/150x150/?portrait?3",
-      "preview_link": "https://example.com/portfolio-website",
-      "features": [
-        {
-          "id": 1,
-          "title": "Gallery section"
-        },
-        {
-          "id": 2,
-          "title": "Responsive layout"
-        },
-        {
-          "id": 3,
-          "title": "Contact form"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Blog Template",
-      "Description": "A modern and clean blog template",
-      "Price": "$29",
-      "Total_Buyer": "90",
-      "categorie": "Web Development",
-      "rating": "4.3",
-      "photo_url": "https://source.unsplash.com/150x150/?portrait?3",
-      "preview_link": "https://example.com/blog-template",
-      "features": [
-        {
-          "id": 1,
-          "title": "Multiple blog post layouts"
-        },
-        {
-          "id": 2,
-          "title": "Commenting system"
-        },
-        {
-          "id": 3,
-          "title": "Social media integration"
-        }
-      ]
-    }
-  ]
+    ]
 }
