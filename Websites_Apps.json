@@ -1,6 +1,5 @@
 {
- "Websites_languages":
-[
+ "Websites_languages": [
  { "id": 1, "title": "React" },
   { "id": 2, "title": "Angular" },
   { "id": 3, "title": "Vue.js" },
