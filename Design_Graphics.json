@@ -1,4 +1,86 @@
 {
+  "Design_Softwares": [
+    {
+      "id": 1,
+      "title": "Adobe Photoshop"
+    },
+    {
+      "id": 2,
+      "title": "Adobe Illustrator"
+    },
+    {
+      "id": 3,
+      "title": "Sketch"
+    },
+    {
+      "id": 4,
+      "title": "Figma"
+    },
+    {
+      "id": 5,
+      "title": "InVision Studio"
+    },
+    {
+      "id": 6,
+      "title": "Autodesk AutoCAD"
+    },
+    {
+      "id": 7,
+      "title": "Blender"
+    },
+    {
+      "id": 8,
+      "title": "Canva"
+    },
+    {
+      "id": 9,
+      "title": "Procreate"
+    },
+    {
+      "id": 10,
+      "title": "Adobe InDesign"
+    },
+    {
+      "id": 11,
+      "title": "Affinity Designer"
+    },
+    {
+      "id": 12,
+      "title": "CorelDRAW"
+    },
+    {
+      "id": 13,
+      "title": "Adobe XD"
+    },
+    {
+      "id": 14,
+      "title": "Marvel"
+    },
+    {
+      "id": 15,
+      "title": "Zeplin"
+    },
+    {
+      "id": 16,
+      "title": "Axure RP"
+    },
+    {
+      "id": 17,
+      "title": "Adobe After Effects"
+    },
+    {
+      "id": 18,
+      "title": "Cinema 4D"
+    },
+    {
+      "id": 19,
+      "title": "Gravit Designer"
+    },
+    {
+      "id": 20,
+      "title": "Adobe Premiere Pro"
+    }
+  ],
   "Designs_categories": [
     {
       "id": 1,
