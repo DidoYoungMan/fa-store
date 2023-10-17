@@ -1,48 +1,446 @@
-const Designs = 
- {
-"Designs_categories":[
-  { "id": 1, "title": "e-commerce", "photo_url": "ecommerce.jpg" },
-  { "id": 2, "title": "blogging", "photo_url": "blogging.jpg" },
-  { "id": 3, "title": "news", "photo_url": "news.jpg" },
-  { "id": 4, "title": "portfolio", "photo_url": "portfolio.jpg" },
-],"Designs":
-[
-  {
-    "id": 1,
-    "title": "Bootstrap",
-    "Description": "",
-    "Price": "",
-    "Total_Buyer": " ",
-    "categorie": "",
-    "rating": "",
-    "photo": "",
-    "features": [
-      {
-        "id": 1,
-        "title": ""
-      }
-    ],
-    "customers_reviews": [
-      {
-        "id": 1,
-        "username": "",
-        "title": "",
-        "description": "",
-        "photo_url": "",
-        "created_at": ""
-      }
-    ],
-    "buyed_client": [
-      {
-        "id": 1,
-        "username": "",
-        "photo_url": "",
-        "buyed_at": ""
-      }
-    ]
-  }
-]
+{
+  "Designs_categories": [
+    {
+      "id": 1,
+      "title": "Logo Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Packaging Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Brand Identity Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Typography Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Poster Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Brochure Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Web Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    },
+    {
+      "id": 8,
+      "title": "UI/UX Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Illustration Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Motion Graphics Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Infographic Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Social Media Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Advertising Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Publication Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Package Label Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Environmental Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    },
+    {
+      "id": 17,
+      "title": "User Interface Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Mobile App Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Corporate Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Visual Identity Design",
+      "photo_url": "https://i.pinimg.com/1200x/8d/a8/80/8da880bfd5de3e4a821e0d76296570b1.jpg"
+    }
+  ],
+  "Designs": [
+    {
+      "id": 1,
+      "title": "Logo Design",
+      "Description": "Create a professional and memorable logo for your brand.",
+      "Price": "$99.99",
+      "Total_Buyer": 150,
+      "categorie": "Corporate Identity",
+      "rating": "4.5",
+      "photo_url": "https://source.unsplash.com/150x150/?logo",
+      "other_photo": [
+        {
+          "id": 1,
+          "photo_url": "https://source.unsplash.com/150x150/?logo"
+        },
+        {
+          "id": 2,
+          "photo_url": "https://source.unsplash.com/150x150/?branding"
+        }
+      ],
+      "features": [
+        {
+          "id": 1,
+          "title": "Unique and Creative Designs"
+        },
+        {
+          "id": 2,
+          "title": "Multiple Revisions"
+        },
+        {
+          "id": 3,
+          "title": "Vector Formats for Scalability"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Brochure Design",
+      "Description": "Design a visually appealing brochure for your business.",
+      "Price": "$149.99",
+      "Total_Buyer": 80,
+      "categorie": "Print Design",
+      "rating": "4.2",
+      "photo_url": "https://source.unsplash.com/150x150/?brochure",
+      "other_photo": [
+        {
+          "id": 1,
+          "photo_url": "https://source.unsplash.com/150x150/?brochure"
+        },
+        {
+          "id": 2,
+          "photo_url": "https://source.unsplash.com/150x150/?marketing"
+        }
+      ],
+      "features": [
+        {
+          "id": 1,
+          "title": "Eye-catching Layouts"
+        },
+        {
+          "id": 2,
+          "title": "Informative Content"
+        },
+        {
+          "id": 3,
+          "title": "Print-ready Files"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Website Design",
+      "Description": "Craft a visually appealing and user-friendly website for your business.",
+      "Price": "$499.99",
+      "Total_Buyer": 200,
+      "categorie": "Web Design",
+      "rating": "4.8",
+      "photo_url": "https://source.unsplash.com/150x150/?website",
+      "other_photo": [
+        {
+          "id": 1,
+          "photo_url": "https://source.unsplash.com/150x150/?website"
+        },
+        {
+          "id": 2,
+          "photo_url": "https://source.unsplash.com/150x150/?webdevelopment"
+        }
+      ],
+      "features": [
+        {
+          "id": 1,
+          "title": "Responsive Design"
+        },
+        {
+          "id": 2,
+          "title": "Intuitive User Interface"
+        },
+        {
+          "id": 3,
+          "title": "Search Engine Optimization"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Packaging Design",
+      "Description": "Create attractive and functional packaging for your products.",
+      "Price": "$199.99",
+      "Total_Buyer": 120,
+      "categorie": "Product Design",
+      "rating": "4.6",
+      "photo_url": "https://source.unsplash.com/150x150/?packaging",
+      "other_photo": [
+        {
+          "id": 1,
+          "photo_url": "https://source.unsplash.com/150x150/?packaging"
+        },
+        {
+          "id": 2,
+          "photo_url": "https://source.unsplash.com/150x150/?product"
+        }
+      ],
+      "features": [
+        {
+          "id": 1,
+          "title": "Creative and Eye-catching Designs"
+        },
+        {
+          "id": 2,
+          "title": "Product Branding"
+        },
+        {
+          "id": 3,
+          "title": "Print-ready Files"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Flyer Design",
+      "Description": "Design visually captivating flyers for your events or promotions.",
+      "Price": "$49.99",
+      "Total_Buyer": 250,
+      "categorie": "Print Design",
+      "rating": "4.3",
+      "photo_url": "https://source.unsplash.com/150x150/?flyer",
+      "other_photo": [
+        {
+          "id": 1,
+          "photo_url": "https://source.unsplash.com/150x150/?flyer"
+        },
+        {
+          "id": 2,
+          "photo_url": "https://source.unsplash.com/150x150/?marketing"
+        }
+      ],
+      "features": [
+        {
+          "id": 1,
+          "title": "Eye-catching Designs"
+        },
+        {
+          "id": 2,
+          "title": "High-quality Printing"
+        },
+        {
+          "id": 3,
+          "title": "Quick Turnaround Time"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Social Media Graphics",
+      "Description": "Create engaging and shareable graphics for your social media platforms.",
+      "Price": "$29.99",
+      "Total_Buyer": 300,
+      "categorie": "Digital Design",
+      "rating": "4.7",
+      "photo_url": "https://source.unsplash.com/150x150/?socialmedia",
+      "other_photo": [
+        {
+          "id": 1,
+          "photo_url": "https://source.unsplash.com/150x150/?socialmedia"
+        },
+        {
+          "id": 2,
+          "photo_url": "https://source.unsplash.com/150x150/?digitaldesign"
+        }
+      ],
+      "features": [
+        {
+          "id": 1,
+          "title": "Eye-catching Visuals"
+        },
+        {
+          "id": 2,
+          "title": "Brand Consistency"
+        },
+        {
+          "id": 3,
+          "title": "Optimized for Social Media Platforms"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Poster Design",
+      "Description": "Design visually striking posters for events, movies, or advertising campaigns.",
+      "Price": "$79.99",
+      "Total_Buyer": 90,
+      "categorie": "Print Design",
+      "rating": "4.4",
+      "photo_url": "https://source.unsplash.com/150x150/?poster",
+      "other_photo": [
+        {
+          "id": 1,
+          "photo_url": "https://source.unsplash.com/150x150/?poster"
+        },
+        {
+          "id": 2,
+          "photo_url": "https://source.unsplash.com/150x150/?event"
+        }
+      ],
+      "features": [
+        {
+          "id": 1,
+          "title": "Visually Striking Designs"
+        },
+        {
+          "id": 2,
+          "title": "Effective Messaging"
+        },
+        {
+          "id": 3,
+          "title": "Print-ready Files"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "App UI Design",
+      "Description": "Design intuitive and visually appealing user interfaces for mobile or web applications.",
+      "Price": "$299.99",
+      "Total_Buyer": 150,
+      "categorie": "UI/UX Design",
+      "rating": "4.9",
+      "photo_url": "https://source.unsplash.com/150x150/?app",
+      "other_photo": [
+        {
+          "id": 1,
+          "photo_url": "https://source.unsplash.com/150x150/?app"
+        },
+        {
+          "id": 2,
+          "photo_url": "https://source.unsplash.com/150x150/?uiuxdesign"
+        }
+      ],
+      "features": [
+        {
+          "id": 1,
+          "title": "Intuitive User Experience"
+        },
+        {
+          "id": 2,
+          "title": "Stunning Visual Design"
+        },
+        {
+          "id": 3,
+          "title": "Customizable Components"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Business Card Design",
+      "Description": "Create professional and impactful business cards to leave a lasting impression.",
+      "Price": "$39.99",
+      "Total_Buyer": 200,
+      "categorie": "Print Design",
+      "rating": "4.6",
+      "photo_url": "https://source.unsplash.com/150x150/?businesscard",
+      "other_photo": [
+        {
+          "id": 1,
+          "photo_url": "https://source.unsplash.com/150x150/?businesscard"
+        },
+        {
+          "id": 2,
+          "photo_url": "https://source.unsplash.com/150x150/?stationery"
+        }
+      ],
+      "features": [
+        {
+          "id": 1,
+          "title": "Professional and Memorable Designs"
+        },
+        {
+          "id": 2,
+          "title": "Print-ready Files"
+        },
+        {
+          "id": 3,
+          "title": "Customizable Templates"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Banner Design",
+      "Description": "Create eye-catching banners for online advertising or events.",
+      "Price": "$59.99",
+      "Total_Buyer": 120,
+      "categorie": "Digital Design",
+      "rating": "4.2",
+      "photo_url": "https://source.unsplash.com/150x150/?banner",
+      "other_photo": [
+        {
+          "id": 1,
+          "photo_url": "https://source.unsplash.com/150x150/?banner"
+        },
+        {
+          "id": 2,
+          "photo_url": "https://source.unsplash.com/150x150/?advertising"
+        }
+      ],
+      "features": [
+        {
+          "id": 1,
+          "title": "Attention-grabbing Designs"
+        },
+        {
+          "id": 2,
+          "title": "Optimized for Digital Advertising Platforms"
+        },
+        {
+          "id": 3,
+          "title": "Customizable Templates"
+        }
+      ]
+    }
+  ]
 }
-
-const websitesJSON = JSON.stringify(websites);
-console.log(websitesJSON);
